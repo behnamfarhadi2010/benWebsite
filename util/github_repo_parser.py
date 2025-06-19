@@ -74,6 +74,7 @@ class GitHubRepoParser:
         return str(filepath.relative_to('src/config'))
     
 def main():
+    token = os.getenv("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")
     parser = GitHubRepoParser(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)
     
     # Example project details
