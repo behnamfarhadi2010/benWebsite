@@ -2,7 +2,7 @@ import { c as createAstro, b as createComponent, r as renderComponent, e as rend
 import 'kleur/colors';
 /* empty css                                 */
 import { escape } from 'html-escaper';
-import { c as getImage } from '../chunks/_astro_assets_DlMSxCbp.mjs';
+import { c as getImage } from '../chunks/_astro_assets_a35b1Wbd.mjs';
 import { jsxs, jsx, Fragment as Fragment$1 } from 'react/jsx-runtime';
 import { useState, useEffect, useRef } from 'react';
 import { MdWifi } from 'react-icons/md';
@@ -398,7 +398,7 @@ const $$AstroSeo = createComponent(($$result, $$props, $$slots) => {
     additionalMetaTags,
     additionalLinkTags
   }))}` })}`;
-}, "C:/Users/002/source/repos/portfolio/node_modules/@astrolib/seo/src/AstroSeo.astro", void 0);
+}, "/Users/behnamfarhadi/portfolio/node_modules/@astrolib/seo/src/AstroSeo.astro", void 0);
 
 const macBackground1 = new Proxy({"src":"/_astro/mac-background1.BN3pAP-K.jpg","width":6016,"height":3384,"format":"jpg","orientation":1}, {
 						get(target, name, receiver) {
@@ -406,7 +406,7 @@ const macBackground1 = new Proxy({"src":"/_astro/mac-background1.BN3pAP-K.jpg","
 								return structuredClone(target);
 							}
 							if (name === 'fsPath') {
-								return "C:/Users/002/source/repos/portfolio/src/assets/images/mac-background1.jpg";
+								return "/Users/behnamfarhadi/portfolio/src/assets/images/mac-background1.jpg";
 							}
 							
 							return target[name];
@@ -419,7 +419,7 @@ const macBackground3 = new Proxy({"src":"/_astro/mac-background3.D2uWT5Yk.jpg","
 								return structuredClone(target);
 							}
 							if (name === 'fsPath') {
-								return "C:/Users/002/source/repos/portfolio/src/assets/images/mac-background3.jpg";
+								return "/Users/behnamfarhadi/portfolio/src/assets/images/mac-background3.jpg";
 							}
 							
 							return target[name];
@@ -759,6 +759,11 @@ const userConfig = {
           alt: "NUICPC"
         },
         {
+          url: "https://i.ibb.co/WWBPM6GG/484804363-1069556495206781-5476304623000762204-n.jpg",
+          alt: "Nile University"
+          // description: "Nile University Campus"
+        },
+        {
           url: "https://i.ibb.co/wNFg7VkR/484643522-1069479561881141-6397451359649224021-n.jpg",
           alt: "Nile University"
           // description: "Nile University Campus"
@@ -780,6 +785,14 @@ const userConfig = {
           alt: "NUICPC"
         },
         {
+          url: "https://i.ibb.co/S7R12bRy/484136881-1069556391873458-1395371296655723435-n.jpg",
+          alt: "NUICPC"
+        },
+        {
+          url: "https://i.ibb.co/zWVHwSPH/484516365-1070411428454621-8390835945290794938-n.jpg",
+          alt: "NUICPC"
+        },
+        {
           url: "https://i.ibb.co/27L4bpQY/484381461-1069479998547764-3349306911678016045-n.jpg",
           alt: "NUICPC"
         },
@@ -798,7 +811,8 @@ const userConfig = {
         {
           url: "https://i.ibb.co/v6QLXpqg/486627143-1081260057369758-4195012303656403802-n.jpg",
           alt: "NUICPC"
-        }
+        },
+        {}
       ]
     },
     {
@@ -847,8 +861,9 @@ const userConfig = {
       year: "2025",
       images: [
         {
-          url: "https://i.ibb.co/zWVHwSPH/484516365-1070411428454621-8390835945290794938-n.jpg",
-          alt: "NUICPC"
+          url: "https://scontent.fcai19-7.fna.fbcdn.net/v/t39.30808-6/487509808_1082047970624300_6971553578124341594_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=aHeR-Y9xLCoQ7kNvwEt75GT&_nc_oc=AdmO0ISS5S83f5_spVUXrCY5OhawFzqurVuym-4vhEnrUw3H4-jlAWwwPr51_y97zEE&_nc_zt=23&_nc_ht=scontent.fcai19-7.fna&_nc_gid=yluqC4DSHyLfMjmLwL8hWA&oh=00_AfHf2HeyPANMbQPqIrHx24nzfxeuQkMaeMbP9SlpaTW-gg&oe=6806D086",
+          alt: "Nile University",
+          description: "Nile University Campus"
         }
       ]
     },
@@ -860,12 +875,19 @@ const userConfig = {
       year: "2022-2025",
       images: [
         {
-          url: "https://i.ibb.co/WWBPM6GG/484804363-1069556495206781-5476304623000762204-n.jpg",
-          alt: "Nile University"
+          url: "https://scontent.fcai19-7.fna.fbcdn.net/v/t39.30808-6/486652074_1077701407725623_8749819316280105843_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=925gSLld9YIQ7kNvwH1Tnis&_nc_oc=AdkNGFJJzloJMZ7UyMqzyxpop7LgOAS4wDf37phzksSB9zyg6YYoJn9DvQBkTRCPe3c&_nc_zt=23&_nc_ht=scontent.fcai19-7.fna&_nc_gid=2jkQxIt1NA2bEK9hDA_sLw&oh=00_AfEFWMQ8TXpm7J7GNg31NTQtj51-xBK0gA96v3e3FXFOXw&oe=6806D41D",
+          alt: "Nile University",
+          description: "Nile University Campus"
         },
         {
-          url: "https://i.ibb.co/S7R12bRy/484136881-1069556391873458-1395371296655723435-n.jpg",
-          alt: "NUICPC"
+          url: "https://scontent.fcai19-7.fna.fbcdn.net/v/t39.30808-6/487509808_1082047970624300_6971553578124341594_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=aHeR-Y9xLCoQ7kNvwEt75GT&_nc_oc=AdmO0ISS5S83f5_spVUXrCY5OhawFzqurVuym-4vhEnrUw3H4-jlAWwwPr51_y97zEE&_nc_zt=23&_nc_ht=scontent.fcai19-7.fna&_nc_gid=yluqC4DSHyLfMjmLwL8hWA&oh=00_AfHf2HeyPANMbQPqIrHx24nzfxeuQkMaeMbP9SlpaTW-gg&oe=6806D086",
+          alt: "Nile University",
+          description: "Nile University Campus"
+        },
+        {
+          url: "https://scontent.fcai19-7.fna.fbcdn.net/v/t39.30808-6/484516365_1070411428454621_8390835945290794938_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eGV6obo35CwQ7kNvwEna_H_&_nc_oc=AdkJaDZSOxHorBC4LMHappVliFJtwF5f7D8dyRSgS9Dn6aLdg1YEnE6taP2Ig3sbyQs&_nc_zt=23&_nc_ht=scontent.fcai19-7.fna&_nc_gid=mEX3OZGsZeCySB76oTVkRQ&oh=00_AfEuFzuaNHYsYm3DLGnEWPCQYRyyQfVNh64r__8G_DKNaA&oe=6806E9D5",
+          alt: "Nile University",
+          description: "Nile University Campus"
         }
       ]
     }
@@ -1114,7 +1136,7 @@ const $$BaseHead = createComponent(async ($$result, $$props, $$slots) => {
     ],
     site_name: Astro2.props.openGraph?.site_name || userConfig.name
   } })}<!-- Add your favicon files in public/images/ --><link rel="apple-touch-icon" sizes="180x180" href="https://avatars.githubusercontent.com/u/97130221?s=400&u=aaa4eb0bf9d07b901f0b15df8540fefea2fca729&v=4"><link rel="icon" type="image/png" sizes="32x32" href="https://avatars.githubusercontent.com/u/97130221?s=400&u=aaa4eb0bf9d07b901f0b15df8540fefea2fca729&v=4"><link rel="icon" type="image/png" sizes="16x16" href="https://avatars.githubusercontent.com/u/97130221?s=400&u=aaa4eb0bf9d07b901f0b15df8540fefea2fca729&v=4"><!-- Theme colors for browsers --><meta name="msapplication-TileColor"${addAttribute(userConfig.theme.secondaryColor, "content")}><meta name="theme-color"${addAttribute(userConfig.theme.secondaryColor, "content")}><!-- Auto-generated sitemap --><link rel="sitemap" href="/sitemap-index.xml"><!-- Preload background images for performance -->${backgrounds.map((bg) => renderTemplate`<link rel="preload"${addAttribute(bg.src, "href")} as="image" type="image/webp" fetchpriority="high">`)}`;
-}, "C:/Users/002/source/repos/portfolio/src/components/global/BaseHead.astro", void 0);
+}, "/Users/behnamfarhadi/portfolio/src/components/global/BaseHead.astro", void 0);
 
 const $$Astro$2 = createAstro("https://example.com");
 const $$Index$2 = createComponent(($$result, $$props, $$slots) => {
@@ -1122,8 +1144,8 @@ const $$Index$2 = createComponent(($$result, $$props, $$slots) => {
   Astro2.self = $$Index$2;
   const propsStr = JSON.stringify(Astro2.props);
   const paramsStr = JSON.stringify(Astro2.params);
-  return renderTemplate`${renderComponent($$result, "vercel-analytics", "vercel-analytics", { "data-props": propsStr, "data-params": paramsStr, "data-pathname": Astro2.url.pathname })} ${renderScript($$result, "C:/Users/002/source/repos/portfolio/node_modules/@vercel/analytics/dist/astro/index.astro?astro&type=script&index=0&lang.ts")}`;
-}, "C:/Users/002/source/repos/portfolio/node_modules/@vercel/analytics/dist/astro/index.astro", void 0);
+  return renderTemplate`${renderComponent($$result, "vercel-analytics", "vercel-analytics", { "data-props": propsStr, "data-params": paramsStr, "data-pathname": Astro2.url.pathname })} ${renderScript($$result, "/Users/behnamfarhadi/portfolio/node_modules/@vercel/analytics/dist/astro/index.astro?astro&type=script&index=0&lang.ts")}`;
+}, "/Users/behnamfarhadi/portfolio/node_modules/@vercel/analytics/dist/astro/index.astro", void 0);
 
 const $$Astro$1 = createAstro("https://example.com");
 const $$Index$1 = createComponent(($$result, $$props, $$slots) => {
@@ -1131,15 +1153,15 @@ const $$Index$1 = createComponent(($$result, $$props, $$slots) => {
   Astro2.self = $$Index$1;
   const propsStr = JSON.stringify(Astro2.props);
   const paramsStr = JSON.stringify(Astro2.params);
-  return renderTemplate`${renderComponent($$result, "vercel-speed-insights", "vercel-speed-insights", { "data-props": propsStr, "data-params": paramsStr, "data-pathname": Astro2.url.pathname })} ${renderScript($$result, "C:/Users/002/source/repos/portfolio/node_modules/@vercel/speed-insights/dist/astro/index.astro?astro&type=script&index=0&lang.ts")}`;
-}, "C:/Users/002/source/repos/portfolio/node_modules/@vercel/speed-insights/dist/astro/index.astro", void 0);
+  return renderTemplate`${renderComponent($$result, "vercel-speed-insights", "vercel-speed-insights", { "data-props": propsStr, "data-params": paramsStr, "data-pathname": Astro2.url.pathname })} ${renderScript($$result, "/Users/behnamfarhadi/portfolio/node_modules/@vercel/speed-insights/dist/astro/index.astro?astro&type=script&index=0&lang.ts")}`;
+}, "/Users/behnamfarhadi/portfolio/node_modules/@vercel/speed-insights/dist/astro/index.astro", void 0);
 
 const $$Astro = createAstro("https://example.com");
 const $$Layout = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$Layout;
   return renderTemplate`<html lang="en" class="scroll-smooth selection:bg-gray-900 selection:text-white overflow-x-hidden"> <head>${renderComponent($$result, "BaseHead", $$BaseHead, { "title": Astro2.props.title, "description": Astro2.props.description, "canonical": Astro2.props.canonical, "openGraph": Astro2.props.openGraph })}${renderComponent($$result, "Analytics", $$Index$2, {})}${renderComponent($$result, "SpeedInsights", $$Index$1, {})}${renderHead()}</head> <body class="overflow-x-hidden bg-gray-900"> ${renderSlot($$result, $$slots["default"])} </body></html>`;
-}, "C:/Users/002/source/repos/portfolio/src/layouts/Layout.astro", void 0);
+}, "/Users/behnamfarhadi/portfolio/src/layouts/Layout.astro", void 0);
 
 function HelpModal({
   isOpen,
@@ -3014,7 +3036,7 @@ const macBackground2 = new Proxy({"src":"/_astro/mac-background2.DAWzICtV.jpg","
 								return structuredClone(target);
 							}
 							if (name === 'fsPath') {
-								return "C:/Users/002/source/repos/portfolio/src/assets/images/mac-background2.jpg";
+								return "/Users/behnamfarhadi/portfolio/src/assets/images/mac-background2.jpg";
 							}
 							
 							return target[name];
@@ -3037,8 +3059,8 @@ const $$LandingPage = createComponent(async ($$result, $$props, $$slots) => {
   const backgroundMap = Object.fromEntries(
     optimizedBackgrounds.map((bg, index) => [`bg-${index + 1}`, bg.src])
   );
-  return renderTemplate`${renderComponent($$result, "AppLayout", Desktop, { "client:load": true, "initialBg": getRandomBackground(), "backgroundMap": backgroundMap, "client:component-hydration": "load", "client:component-path": "C:/Users/002/source/repos/portfolio/src/layouts/AppLayout", "client:component-export": "default" })}`;
-}, "C:/Users/002/source/repos/portfolio/src/components/LandingPage.astro", void 0);
+  return renderTemplate`${renderComponent($$result, "AppLayout", Desktop, { "client:load": true, "initialBg": getRandomBackground(), "backgroundMap": backgroundMap, "client:component-hydration": "load", "client:component-path": "/Users/behnamfarhadi/portfolio/src/layouts/AppLayout", "client:component-export": "default" })}`;
+}, "/Users/behnamfarhadi/portfolio/src/components/LandingPage.astro", void 0);
 
 const $$Index = createComponent(($$result, $$props, $$slots) => {
   return renderTemplate`<!-- 
@@ -3053,9 +3075,9 @@ const $$Index = createComponent(($$result, $$props, $$slots) => {
     description: userConfig.seo.description,
     site_name: userConfig.name
   } }, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "LandingPage", $$LandingPage, {})} ` })}`;
-}, "C:/Users/002/source/repos/portfolio/src/pages/index.astro", void 0);
+}, "/Users/behnamfarhadi/portfolio/src/pages/index.astro", void 0);
 
-const $$file = "C:/Users/002/source/repos/portfolio/src/pages/index.astro";
+const $$file = "/Users/behnamfarhadi/portfolio/src/pages/index.astro";
 const $$url = "";
 
 const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({

@@ -9,13 +9,13 @@ import portfolio from './projects/portfolio.json';
 import foodies from './projects/foodies.json';
 export const userConfig = {
     // Personal Information
-    name: 'Abdelrahman Saleh',
+    name: 'Behnam Farhadi',
     role: 'Software Developer - Backend Developer',
-    location: 'Giza, Egypt',
-    email: 'aabdoo2304@gmail.com',
-    website: 'aabdoo23',
+    location: 'St. Johns, NL, CANADA',
+    email: 'farhadi.behnam@gmail.com',
+    website: 'Behnam Farhadi',
     roleFocus: 'Backend Development using .NET, C#, Entity Framework, SQL Server, and Bootstrap. Can also work with Angular, React, and Node.js.',
-    age: 23,    
+    age: 39,    
 
     // Social Links
     social: {
@@ -25,8 +25,8 @@ export const userConfig = {
 
     // Contact Information
     contact: {
-        email: 'aabdoo2304@gmail.com',
-        phone: '+201007952039', // Add your phone number
+        email: 'farhadi.behnam@gmail.com',
+        phone: '+17093417330', // Add your phone number
         calendly: 'https://calendly.com/aabdoo2304', // Add your Calendly URL
     },
 
