@@ -401,7 +401,7 @@ export const userConfig = {
     // Projects Configuration
     projects: [
         scheds,
-        portfolio,
+        ,
         foodies,
         fadedTextRestoration,
         nucpaBalloons,
