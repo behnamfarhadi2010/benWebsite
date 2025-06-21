@@ -400,15 +400,15 @@ export const userConfig = {
 
     // Projects Configuration
     projects: [
-        scheds,
-        ,
-        foodies,
-        fadedTextRestoration,
-        nucpaBalloons,
-        nucpaBalloonsApi,
-        neurospeccompanionmerged,
-        clinicalmain,
-        seatReservation,
+        // scheds,
+        portfolio,
+        // foodies,
+        // fadedTextRestoration,
+        // nucpaBalloons,
+        // nucpaBalloonsApi,
+        // neurospeccompanionmerged,
+        // clinicalmain,
+        // seatReservation,
         
         // Add more projects here
     ]
