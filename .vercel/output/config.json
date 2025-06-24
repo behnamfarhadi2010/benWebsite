@@ -31,7 +31,7 @@
 			"dest": "_render"
 		},
 		{
-			"src": "^/$",
+			"src": "^$",
 			"dest": "_render"
 		}
 	]
